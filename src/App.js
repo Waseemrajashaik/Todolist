@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import PropTypes from 'prop-types'
+import { connect } from 'react-redux'
+import { ThemeProvider } from 'styled-components'
 
-function App() {
+import { GlobalStyle, theme } from 'styles'
+import MainLayout from 'containers'
+
+const App = ({ theme_button }) => {
+  const value = theme_button ? theme.light : theme.dark
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <ThemeProvider theme={value}>
+      <GlobalStyle />
+      <MainLayout />
+    </ThemeProvider>
+  )
 }
 
-export default App;
+App.propTypes = {
+  theme_button: PropTypes.bool.isRequired,
+}
+
+const mapStateToProps = state => ({
+  theme_button: state.list.theme_button,
+})
+
+export default connect(mapStateToProps, null)(App)
