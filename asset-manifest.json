@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.js": "/todolist/static/js/main.a17b85d4.chunk.js",
-    "main.js.map": "/todolist/static/js/main.a17b85d4.chunk.js.map",
-    "runtime-main.js": "/todolist/static/js/runtime-main.bd4592dd.js",
-    "runtime-main.js.map": "/todolist/static/js/runtime-main.bd4592dd.js.map",
-    "static/js/2.03380ef3.chunk.js": "/todolist/static/js/2.03380ef3.chunk.js",
-    "static/js/2.03380ef3.chunk.js.map": "/todolist/static/js/2.03380ef3.chunk.js.map",
-    "static/js/3.8c28d4a4.chunk.js": "/todolist/static/js/3.8c28d4a4.chunk.js",
-    "static/js/3.8c28d4a4.chunk.js.map": "/todolist/static/js/3.8c28d4a4.chunk.js.map",
-    "index.html": "/todolist/index.html",
-    "static/js/2.03380ef3.chunk.js.LICENSE.txt": "/todolist/static/js/2.03380ef3.chunk.js.LICENSE.txt",
-    "static/media/close.96841b05.svg": "/todolist/static/media/close.96841b05.svg",
-    "static/media/delete.3ef1c6cb.svg": "/todolist/static/media/delete.3ef1c6cb.svg",
-    "static/media/edit.804c812f.svg": "/todolist/static/media/edit.804c812f.svg"
+    "main.js": "/Todolist/static/js/main.a17b85d4.chunk.js",
+    "main.js.map": "/Todolist/static/js/main.a17b85d4.chunk.js.map",
+    "runtime-main.js": "/Todolist/static/js/runtime-main.c5609d85.js",
+    "runtime-main.js.map": "/Todolist/static/js/runtime-main.c5609d85.js.map",
+    "static/js/2.c83b435f.chunk.js": "/Todolist/static/js/2.c83b435f.chunk.js",
+    "static/js/2.c83b435f.chunk.js.map": "/Todolist/static/js/2.c83b435f.chunk.js.map",
+    "static/js/3.8c28d4a4.chunk.js": "/Todolist/static/js/3.8c28d4a4.chunk.js",
+    "static/js/3.8c28d4a4.chunk.js.map": "/Todolist/static/js/3.8c28d4a4.chunk.js.map",
+    "index.html": "/Todolist/index.html",
+    "static/js/2.c83b435f.chunk.js.LICENSE.txt": "/Todolist/static/js/2.c83b435f.chunk.js.LICENSE.txt",
+    "static/media/close.96841b05.svg": "/Todolist/static/media/close.96841b05.svg",
+    "static/media/delete.3ef1c6cb.svg": "/Todolist/static/media/delete.3ef1c6cb.svg",
+    "static/media/edit.804c812f.svg": "/Todolist/static/media/edit.804c812f.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bd4592dd.js",
-    "static/js/2.03380ef3.chunk.js",
+    "static/js/runtime-main.c5609d85.js",
+    "static/js/2.c83b435f.chunk.js",
     "static/js/main.a17b85d4.chunk.js"
   ]
 }
